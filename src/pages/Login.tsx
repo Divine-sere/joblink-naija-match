@@ -36,7 +36,7 @@ const Login = () => {
             <Briefcase className="w-5 h-5 text-white" />
           </div>
           <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
-            JobLink
+            Taskified
           </h1>
         </div>
       </div>
@@ -44,7 +44,7 @@ const Login = () => {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <CardTitle className="text-2xl">Welcome Back</CardTitle>
-          <CardDescription>Sign in to your JobLink account</CardDescription>
+          <CardDescription>Sign in to your Taskified account</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">

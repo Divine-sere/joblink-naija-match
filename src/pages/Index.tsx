@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -56,7 +55,7 @@ const Index = () => {
               <Briefcase className="w-5 h-5 text-white" />
             </div>
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
-              JobLink
+              Taskified
             </h1>
           </div>
           <div className="flex space-x-3">
@@ -204,7 +203,7 @@ const Index = () => {
                 <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-green-600 rounded-lg flex items-center justify-center">
                   <Briefcase className="w-5 h-5 text-white" />
                 </div>
-                <h1 className="text-xl font-bold">JobLink</h1>
+                <h1 className="text-xl font-bold">Taskified</h1>
               </div>
               <p className="text-gray-400">Connecting Nigerian workers with daily wage opportunities.</p>
             </div>
@@ -234,7 +233,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 JobLink Nigeria. All rights reserved.</p>
+            <p>&copy; 2024 Taskified Nigeria. All rights reserved.</p>
           </div>
         </div>
       </footer>
